@@ -16,5 +16,5 @@ RUN rm -rf /var/www/html/* && \
 # 配置 Apache 服务器
 RUN a2enmod rewrite
 
-# 将容器的443端口暴露出来
-EXPOSE 443
+# 将容器的80端口暴露出来
+EXPOSE 80
